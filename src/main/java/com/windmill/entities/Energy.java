@@ -29,6 +29,16 @@ public class Energy {
 
 	private Date date;
 
+	public Energy(String windmillId, double electricityGenerated) {
+		super();
+		this.windmillId = windmillId;
+		this.electricityGenerated = electricityGenerated;
+	}
+
+	public Energy() {
+		super();
+	}
+
 	public Long getId() {
 		return id;
 	}

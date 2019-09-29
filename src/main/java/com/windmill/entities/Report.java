@@ -21,9 +21,15 @@ public class Report {
 			this.sum = sum;
 		}	
 	}
+	
+	public Report() {
+		super();
+	}
+
 	public double getAvg() {
 		return avg;
 	}
+
 	public void setAvg(double avg) {
 		this.avg = avg;
 	}
