@@ -34,3 +34,4 @@ java -jar target\windmill-farm-management-0.0.1-SNAPSHOT.jar
 
 ## Copyright
 
+![Code Coverage Report](https://github.com/Tamizharasan-C/windmill-farm-management/blob/master/Code%20Coverage.png)
