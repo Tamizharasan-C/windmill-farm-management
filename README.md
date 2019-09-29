@@ -14,6 +14,23 @@ mvn install
 
 java -jar target\windmill-farm-management-0.0.1-SNAPSHOT.jar
 
+1. POST http://localhost:8080/windmill/register
+
+	{
+		"id":"1234567890123456",
+		"name":"ABC windmill company",
+		"address": "Chennai",
+		"lat" : 123.45,
+		"lon":456.78
+	}
+	
+2. POST http://localhost:8080/windmill/energy
+	{
+	"windmillId":"1234567890123456",
+	"electricityGenerated":18
+	}
+	
+3. GET http://localhost:8080/windmill/report/1234567890123457 
 
 ## Copyright
 
